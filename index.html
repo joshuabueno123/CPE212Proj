@@ -293,13 +293,16 @@
         // JavaScript to clone the content structure into all member cards
         const contentHtml = document.getElementById('card-content-template').innerHTML;
         
-        document.getElementById('ronn-content').innerHTML = contentHtml;
-        document.getElementById('glenn-content').innerHTML = contentHtml;
-        document.getElementById('harvey-content').innerHTML = contentHtml;
-        document.getElementById('john-content').innerHTML = contentHtml;
+		// Correct IDs to match with the HTML structure for each member
+		document.getElementById('joshua-content').innerHTML = contentHtml;
+		document.getElementById('alexzander-content').innerHTML = contentHtml;
+		document.getElementById('emmanuelle-content').innerHTML = contentHtml;
+		document.getElementById('john-content').innerHTML = contentHtml;
+		document.getElementById('Kiel-content').innerHTML = contentHtml;
 
-        // Remove the hidden template structure from the DOM
-        document.getElementById('card-content-template').remove();
+		// Remove the hidden template structure from the DOM
+		document.getElementById('card-content-template').remove();
+
     </script>
 
 </body>
